@@ -39,7 +39,7 @@ body {
   background-color: #ffffff;
   position: relative;
   transform: rotate(-45deg);
-  margin: 0.75rem auto;
+margin: 1.25rem auto 0.75rem auto;
 }
 
 .heart-shape::before,
