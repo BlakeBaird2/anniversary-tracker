@@ -22,7 +22,7 @@ function updateDisplay() {
   const seconds = Math.floor((diff / 1000) % 60);
 
   document.getElementById("countdown").textContent = 
-    `Next month milestone in: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+    `Next Month Anniversary in: ${days}d ${hours}h ${minutes}m ${seconds}s`;
 }
 
 updateDisplay();
