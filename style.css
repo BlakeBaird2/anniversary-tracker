@@ -33,11 +33,36 @@ body {
   color: #d1e2d0;
 }
 
-#heart {
-  font-size: 3rem;
-  margin: 0.75rem 0;
-  color: #ffffff; /* or #f3f3f3 to match your title */
+.heart-shape {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  position: relative;
+  transform: rotate(-45deg);
+  margin: 0.75rem auto;
 }
+
+.heart-shape::before,
+.heart-shape::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.heart-shape::before {
+  top: -15px;
+  left: 0;
+}
+
+.heart-shape::after {
+  left: 15px;
+  top: 0;
+}
+
+
 
 /* Big number styling */
 #months {
