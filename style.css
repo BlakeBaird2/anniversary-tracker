@@ -35,11 +35,9 @@ body {
 
 #heart {
   font-size: 3rem;
-  margin: 0.5rem 0;
-  color: #f3f3f3;
-;
+  margin: 0.75rem 0;
+  color: #ffffff; /* or #f3f3f3 to match your title */
 }
-
 
 /* Big number styling */
 #months {
