@@ -1,24 +1,41 @@
+/* Base styles */
 body {
   background-color: #f0f8ff;
   font-family: 'Segoe UI', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
+  padding: 1rem;
 }
 
 .container {
   text-align: center;
+  max-width: 90%;
 }
 
+/* Big number styling */
 #months {
-  font-size: 6rem;
+  font-size: 12vw; /* Scales based on screen width */
   color: #333;
   margin: 0;
 }
 
+/* Countdown text */
 #countdown {
-  font-size: 1.5rem;
+  font-size: 5vw;
   color: #666;
+  margin-top: 1rem;
+}
+
+/* Optional: Set font-size limits for really large screens */
+@media (min-width: 768px) {
+  #months {
+    font-size: 6rem;
+  }
+
+  #countdown {
+    font-size: 2rem;
+  }
 }
