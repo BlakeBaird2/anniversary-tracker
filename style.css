@@ -33,6 +33,14 @@ body {
   color: #d1e2d0;
 }
 
+#heart {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  color: #f3f3f3;
+;
+}
+
+
 /* Big number styling */
 #months {
   font-size: 12vw; /* Scales based on screen width */
