@@ -1,6 +1,6 @@
 /* Base styles */
 body {
-  background-color: #f0f8ff;
+  background-color: #2e4d36; /* subtle dark green */
   font-family: 'Segoe UI', sans-serif;
   display: flex;
   justify-content: center;
@@ -13,19 +13,37 @@ body {
 .container {
   text-align: center;
   max-width: 90%;
+  color: white;
+}
+
+/* Title and subtitle */
+#title {
+  font-size: 2.5rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #f3f3f3;
+}
+
+#subtitle {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+  color: #d1e2d0;
 }
 
 /* Big number styling */
 #months {
   font-size: 12vw; /* Scales based on screen width */
-  color: #333;
+  color: #ffffff;
   margin: 0;
 }
 
 /* Countdown text */
 #countdown {
   font-size: 5vw;
-  color: #666;
+  color: #cce3d1;
   margin-top: 1rem;
 }
 
